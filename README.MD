@@ -1,11 +1,10 @@
 <h1 align="center">Hi 👋, I'm Thomas O'connor</h1>
 <h3 align="center">A passionate frontend developer from Argentina</h3>
 
-- 🔭 I’m currently working on **Notorius FIT Suplementos**
+- 🔭 I’m currently working on **Notorius FIT is an e-commerce platform dedicated to selling gym supplements. The website offers an optimized user experience, allowing customers to easily explore products like proteins, creatine, and pre-workout supplements. With a responsive and adaptive design, the store adjusts to different devices, providing a smooth experience on both desktop and mobile.**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://linkedin.com/in/thomas o'connor" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="thomas o'connor" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
