@@ -3,7 +3,7 @@
 
 - 🔭 I’m currently working on **Notorius FIT is an e-commerce platform dedicated to selling gym supplements. The website offers an optimized user experience, allowing customers to easily explore products like proteins, creatine, and pre-workout supplements. With a responsive and adaptive design, the store adjusts to different devices, providing a smooth experience on both desktop and mobile.**
 
-<h3 align="left">Connect with me:</h3>
+
 <p align="left">
 </p>
 
