@@ -93,7 +93,7 @@ a{
 }
 
 .nav a:hover {
-    background-color: #e0a800; 
+    background-color: #f9ab55; 
 }
 
 @media (max-width: 576px) {
@@ -202,17 +202,17 @@ a{
     color: white;
     text-align: center;
     position: relative;
-    margin-top: 20px;
-    border-radius: 20px;
+    margin-top: 0px;
+    border-radius: 0px;
     width: 100%;
 }
 
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 900px) {
     .header-productos {
-        height: 200px;
+        height: 50px;
     }
 
     .header-productos h1 {
@@ -262,7 +262,7 @@ a{
 
 .contacto h2 {
     margin-bottom: 20px;
-    font-size: 24px; 
+    font-size: 30px; 
 }
 
 .contacto div {
@@ -363,7 +363,9 @@ a{
     cursor: pointer; 
     font-size: 1em; 
     margin-left: 10px; 
-    transition: background-color 0.3s; 
+    transition: background-color 0.3s;
+    min-width: 80px;
+    text-align: center; 
 }
 
 .newsletter form div input[type="submit"]:hover {
@@ -372,7 +374,7 @@ a{
 
 
 footer {
-    background-color: #e5e5e5;   
+    background-color: #FBC386;   
     display: flex;
     flex-direction: column; 
     align-items: center; 
@@ -396,11 +398,6 @@ footer ul li a {
     text-decoration: none; 
     color: rgb(0, 0, 0); 
     font-size: 18px; 
-    transition: color 0.3s; 
-}
-
-footer ul li a:hover {
-    color: #FBC386; 
 }
 
 footer div {
@@ -428,60 +425,132 @@ footer div img:hover {
 .container {
     display: flex;
     max-width: 1200px;
-    margin: 10px auto;
-    gap: 5px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
 }
 
-.columna-uno, .columna-dos, .columna-tres {
-    background-color: #fff;
-    padding: 30px;
+.columna-izquierda, .columna-central, .columna-derecha {
+    background-color: white;
+    padding: 20px;
     border-radius: 8px;
 }
 
-.columna-uno{
+.columna-izquierda {
     flex: 1;
     display: flex;
     flex-direction: column;
-    gap: 5px;
-} 
+    gap: 10px;
+}
 
-
-.columna-uno img {
-    width: 60%;
+.columna-izquierda img {
+    width: 100%;
     border-radius: 8px;
 }
 
-.columna-dos {
+.columna-central {
     flex: 2;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.columna-dos img {
-    width: auto;
+.columna-central img {
+    max-width: 100%;
     border-radius: 8px;
 }
 
-.columna-tres {
+.columna-derecha {
     flex: 2;
 }
 
-.columna-tres p {
-margin: 15px;
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
 }
+
 .precio {
     font-size: 24px;
+    color: #FBC386;
+    margin-bottom: 20px;
 }
 
+.contador {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
 
-.comprar-btn {
-    margin-top: 20px;
-    background-color: #f2c94d;
-    color: #fff;
-    padding: 15px;
+.btn-contador {
+    padding: 10px;
+    background-color: #FBC386;
+    color: black;
     border: none;
     border-radius: 8px;
+    cursor: not-allowed;
 }
 
-/*!MEDIA QUERY */
+input {
+    width: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.comprar-btn {
+    display: inline-block;
+    padding: 15px;
+    background-color: #FBC386;
+    color: black;
+    border: none;
+    border-radius: 8px;
+    cursor: not-allowed;
+}
+
+.descripcion {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .columna-izquierda {
+        display: none; 
+    }
+
+    .columna-central {
+        flex: none;
+        text-align: center;
+    }
+
+    .columna-central img {
+        max-width: 80%;
+        height: auto;
+    }
+
+    .columna-derecha {
+        flex: none;
+        margin-top: 20px;
+    }
+
+    .contador {
+        justify-content: center;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .precio {
+        font-size: 22px;
+    }
+
+    .comprar-btn {
+        width: 100%;
+    }
+}

@@ -6,7 +6,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <title>Comprar - Notorius Fit Suplementos</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <!--<link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="../css/estilos.css">
+    
 </head>
 <body>
     <header>
@@ -52,28 +54,33 @@
         </nav>
     </header>
     <main>
+        <section>
         <div class="container">
-            <div class="columna-uno">
-                <img src="../img/Proteina 1.png">
-                <img src="../img/creatina-info.jpg">
+            <div class="columna-izquierda">
+                <img src="../img/Proteina 1.png" alt="Proteina star">
+                <img src="../img/creatina-info.jpg" alt="Informacion de producto">
             </div>
 
-            <div class="columna-dos">
-                <img src="../img/Proteina 1.png">
+            <div class="columna-central">
+                <img src="../img/Proteina 1.png" alt="Proteina star 1kg">
             </div>
 
-            <div class="columna-tres">
+            <div class="columna-derecha">
                 <h2>Whey Protein Star Nutrition 1kg</h2>
                 <p class="precio">$31.160</p>
-                <h3>Sabor</h3>
+                <div class="contador">
+                    <button class="btn-contador">-</button>
+                    <input type="text" value="1" readonly>
+                    <button class="btn-contador">+</button>
+                </div>
                 <button class="comprar-btn">Comprar Ahora</button>
-                <p>
-                    <p> El pre-entreno de Star Nutrición es un suplemento súper potente diseñado para llevar tus entrenamientos al siguiente nivel 🚀. Con 285 gramos de una fórmula minuciosamente elaborada, te proporciona la energía, concentración y resistencia necesarias para maximizar tu rendimiento físico.
+                <p class="descripcion">
+                    🌟 Proteína Star Nutrición - 1 kg 🥛💪
+                    Descripción: La proteína de Star Nutrición es un suplemento premium formulado para apoyar tus objetivos de fitness y nutrición. Con 1 kilogramo de proteína de alta calidad, es perfecta para favorecer el crecimiento muscular y la recuperación, brindando los nutrientes esenciales que tu cuerpo necesita 💪.
                 </p>
-
-                    <p>💥 ¿Qué es? El pre-entreno de Star Nutrición es una mezcla especial de estimulantes, aminoácidos y otros compuestos activos. Estos trabajan en conjunto para darte un impulso inmediato de energía y mejorar la circulación, lo que se traduce en más fuerza y resistencia 💪.
-                    /<p>          
+            </div>
         </div>
+    </section>
     </main>
 
     <footer>
@@ -84,8 +91,8 @@
             <li><a href="../pages/accesorios.html">Accesorios</a></li>
             </ul>
             <div>
-                <a href="https://www.instagram.com/notoriusfit_suplementos/" target="_blank"><img src="../img/logotipo-de-instagram.png" alt=""></a>
-                <a href=""><img src="../img/whatsapp.png" alt=""></a>
+                <a href="https://www.instagram.com/notoriusfit_suplementos/" target="_blank"><img src="../img/logotipo-de-instagram.png" alt="instagram"></a>
+                <a href=""><img src="../img/whatsapp.png" alt="whatsapp"></a>
             </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
